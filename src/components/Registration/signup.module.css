@@ -1,0 +1,35 @@
+:root{
+    --body : #f6f1e9cb;
+    --primaryColor : #7FC7D9;
+    --primaryLight : #ace2e17e;
+    --primaryDark : #365486;
+    --white : white;
+    --font : #142F43;
+    --bg : #0F1035
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.stepContainer{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    background-color:  var(--primaryLight);
+    border-radius: 10px;
+    align-items:center;
+}
+
+.stepLine{
+    background-color: var(--primaryColor);
+    width: auto;
+    height: 10px;
+    transition: all 1s;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.stepCounter{
+    font-size: 1vh;
+    font-weight: 800;
+}
